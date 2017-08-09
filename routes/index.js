@@ -24,9 +24,9 @@ router.get('/articles/add', function(req, res, next) {
             name: "Mrutunjay Kubsad",
             author: 'Robber',
             title: "CStrike Robber"
-        },
+        }
     ];
-    res.render('add_article', { title: 'Add Article', articles: articles });
+    res.render('add_article', { title: 'Add Article', Articles: articles });
 });
 
 module.exports = router;
